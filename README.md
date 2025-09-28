@@ -1,17 +1,16 @@
-# {{PROJECT_NAME}}
+# Graph Visualizer
 
 🚧 Work in Progress
 
 ## 📌 Goal
 
-Brief description of what this project will do.  
-Example: “Superepic is a tool to simulate elevators with multiple requests and optimize dispatching.”
+Display graph algorithms execution
 
 ## 🛠 Tech Stack
 
-- Language: (e.g., Rust / C++ / Python)
-- Frameworks/Libraries: (list here)
-- Tools: (build system, CI/CD, etc.)
+- Language: Rust
+- Frameworks/Libraries: Iced
+- Tools: [TBD]
 
 ## 🚀 Roadmap
 
@@ -23,7 +22,7 @@ Example: “Superepic is a tool to simulate elevators with multiple requests and
 
 ## ✅ Current Status
 
-Short summary of progress (e.g., “Design doc in progress”).
+MVP in progress
 
 ## 🗂 Project Management
 
