@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: '[Feature] '
+labels: enhancement
+assignees: 'fill here assignees'
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What’s the feature about?
+      placeholder: Add multi-threaded elevator handling
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature useful or important?
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Rough sketch of how this might work

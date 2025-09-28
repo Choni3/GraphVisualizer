@@ -1,0 +1,29 @@
+name: Bug
+description: Report an error, unexpected behavior, or broken feature
+title: "[Bug] "
+labels: bug
+assignees: "fill here assignees"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+      placeholder: Crash when clicking button X
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide a minimal reproducible example if possible
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened?

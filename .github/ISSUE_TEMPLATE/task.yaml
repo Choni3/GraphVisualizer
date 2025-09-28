@@ -1,0 +1,26 @@
+name: Task
+description: A single unit of work to move the project forward
+title: "[Task] "
+labels: task
+assignees: "fill assignee here"
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: What needs to be done?
+      placeholder: Short description of the task
+    validations:
+      required: true
+  - type: input
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      description: What do we need to consider it completed?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: More context or steps for the task

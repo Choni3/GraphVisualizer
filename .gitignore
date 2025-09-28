@@ -1,0 +1,23 @@
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files / editor swaps
+*.tmp
+*.swp
+*.bak
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build / distribution artifacts
+build/
+dist/
+out/
