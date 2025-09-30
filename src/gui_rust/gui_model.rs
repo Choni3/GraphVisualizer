@@ -5,17 +5,13 @@ use crate::gui_graphs::gui_model::FinalGUIModel;
 use crate::gui_graphs::gui_model::NodeModel;
 use crate::gui_graphs::gui_model::draw_edge;
 use crate::gui_graphs::gui_model::draw_node;
-use iced::Point;
 use iced::Size;
 use iced::mouse;
+use iced::widget::Column;
 use iced::widget::canvas;
 use iced::widget::column;
-use iced::widget::text;
-use iced::widget::text_input;
-use iced::widget::{Column, button};
-use iced::{Color, Element, Rectangle, Renderer, Theme};
+use iced::{Element, Rectangle, Renderer, Theme};
 use ordered_float::OrderedFloat;
-use rand::prelude::*;
 use std::collections::HashMap;
 #[derive(Debug, Clone)]
 pub enum NodeMessage {
