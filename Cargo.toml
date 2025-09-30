@@ -1,0 +1,9 @@
+[package]
+name = "graphs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["canvas"] }
+ordered-float = "5.0.0"
+rand = "0.9.2"
