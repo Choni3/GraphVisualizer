@@ -1286,7 +1286,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "graphs"
+name = "graph-visualizer"
 version = "0.1.0"
 dependencies = [
  "iced",
