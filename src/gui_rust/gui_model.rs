@@ -148,7 +148,7 @@ impl<NodeMessage> canvas::Program<NodeMessage> for State {
     }
 }
 impl GraphApp {
-    pub fn update(&mut self, message: NodeMessage) {
+    pub fn update(&mut self, _: NodeMessage) {
         // [TODO] Implement messages
     }
     pub fn view(&self) -> Column<NodeMessage> {
